@@ -17,10 +17,7 @@ My contribution helped me understand why we should not immediately start trainin
 
 ---
 
-## Member 2 - [Name]
-### Contribution Area: Data Preparation and Splitting
-
-[Member 2: Write your contribution here.]
+## Member 2 - [Saimi Manasiya]
 Member 2 – Data Preparation & Splitting
 
 For this lab, my assigned contribution was Data Preparation and Splitting.
