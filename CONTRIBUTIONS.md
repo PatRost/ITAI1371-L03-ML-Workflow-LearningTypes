@@ -19,7 +19,17 @@ I helped check the number of samples, features, and wine classes in the dataset.
 ### Contribution Area: Data Preparation and Splitting
 
 [Member 2: Write your contribution here.]
+Member 2 – Data Preparation & Splitting
 
+For this lab, my assigned contribution was Data Preparation and Splitting.
+
+I prepared the data for the modeling stage by identifying the appropriate input features (X) and target variable (y) from the Wine dataset. I reviewed the available variables and selected the initial features that would be used as inputs for the machine learning models.
+
+I also created the 80/20 train-test split, using 80% of the dataset for training and 20% for testing. The training data is used by the model to learn patterns from the dataset, while the testing data is kept separate so that the model can be evaluated using data it has not seen during training.
+
+I made sure that the feature data and target labels were separated correctly before the modeling stage. This prepared dataset was then available for the team members working on model training and evaluation.
+
+My contribution helped establish the data preparation stage of the machine learning workflow and provided the properly organized training and testing data needed for the next steps of the lab.
 ---
 
 ## Member 3 - [Name]
