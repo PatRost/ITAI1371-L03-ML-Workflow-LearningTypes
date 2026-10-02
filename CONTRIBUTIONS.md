@@ -10,8 +10,10 @@ This document contains the individual contributions of each group member for the
 ### Contribution Area: Data Exploration and EDA
 
 My main contribution to this lab was working on the data exploration and Exploratory Data Analysis (EDA) part of the Wine dataset. I reviewed the dataset to understand what information we were working with before building the machine learning models.
+I helped check the number of samples, features, and wine classes in the dataset. The dataset contained 178 samples, 13 features, and three wine classes. I also checked for missing values and confirmed that the dataset had no missing data.
+I also worked on understanding the visualizations used during EDA. I reviewed the class distribution chart to see how the wine samples were divided between the three classes. I also looked at the correlation heatmap to understand how some of the features were related to each other.
+My contribution helped me understand why we should not immediately start training a machine learning model when we receive a dataset. We first need to explore the data, check its quality, and understand what we are working with. This part of the lab helped me become more comfortable with the beginning stages of the machine learning workflow.
 
-I helped check the number of samples, features, and wine classes in the dataset. I also reviewed the missing values, class distribution, and correlation heatmap. This helped me understand why exploring and understanding the data is important before training a machine learning model.
 
 ---
 
