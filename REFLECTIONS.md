@@ -24,13 +24,21 @@ Overall, this lab gave me a better understanding of how a machine learning proje
 
 ---
 
-## Member 2 - [Name]
+## Member 2 - [Saimi Manasiya]
 
 ### Reflection
 
-[Member 2: Write your individual reflection here.]
+Reflection – Data Preparation & Splitting
 
----
+Working on the Data Preparation and Splitting section of this lab helped me understand that preparing data is an important part of the machine learning process. Before this lab, I understood the general idea of training a machine learning model, but I had a better understanding of how the dataset needs to be organized before a model can actually learn from it.
+
+One of the main things I learned was the difference between the features (X) and the target variable (y). The features provide the information that the model uses to make predictions, while the target is what the model is trying to predict. Understanding this separation helped me see how a machine learning problem is translated into data that a model can work with.
+
+I also learned how an 80/20 train-test split works and why it is necessary. The training data allows the model to learn patterns, while the testing data provides unseen examples for evaluating how the model performs. This helped me understand why we should not simply train and test a model using the same data.
+
+The most challenging part for me was making sure that the features and target were selected correctly and understanding how the data was divided without affecting the relationship between the inputs and their corresponding labels. Working through the process in Google Colab made it easier for me to understand each step and see how the prepared data was used later in the workflow.
+
+Overall, this lab gave me a clearer understanding of the early stages of a machine learning workflow. I learned that good data preparation is essential because the model depends on properly organized data. I also became more comfortable working with a dataset in Google Colab and understanding how data preparation connects to the model training and evaluation stages completed by the rest of my team.
 
 ## Member 3 - [Name]
 
