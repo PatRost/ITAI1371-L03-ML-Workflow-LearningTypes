@@ -92,8 +92,17 @@ is too limited to establish.
 
 ---
 
-## Member 5 - [Name]
+## Member 5 - Hashim Sayed Hoosini
 
 ### Reflection
+This assignment helped me understand the different types of machine learning, which are supervised learning, unsupervised learning, and reinforcement learning. For this project, we used supervised learning.
 
-[Member 5: Write your individual reflection here.]
+I learned that in supervised learning, the model learns from examples, which are the wine measurements plus the correct wine class. I also learned that classification is a technique where the model learns from a labeled dataset to predict the category or class of new, unseen data. Moreover, I learned that data collection, data preparation and exploration, and splitting the data before model training are necessary steps in machine learning.
+
+From the previous project, I learned about EDA (Exploratory Data Analysis). I ran each code cell and studied each feature, which helped me learn about the 178 samples, 13 features, and three classes. I also learned that X represents the wine features and y represents the wine class. The data was distributed relatively evenly among the classes, so I understood that the data was not imbalanced. For data quality, there were zero missing values, and I studied the correlations between the data.
+
+In addition, this lab helped me learn that choosing the right model for a dataset is important. Logistic Regression and Decision Tree were used for model training and to evaluate model performance. Logistic Regression resulted in 88.9% accuracy, and Decision Tree resulted in 83.3% accuracy. Then I ran the model with different features, such as alcohol, color intensity, and proline, and the model accuracy changed from 0.889 to 0.833. I noticed how different features can change model performance.
+
+For me, the challenging part of this lab was understanding why we need to split the data, train the model on 80% of the data, and test the model on 20% of the data. With this lab, I learned that we split the data into an 80% training set and a 20% testing set to teach the machine learning model real-world patterns while keeping fresh data hidden to measure the accuracy of the model on unseen data.
+
+Overall, this lab helped me learn the machine learning workflow, from data collection to model performance.
