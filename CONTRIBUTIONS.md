@@ -51,10 +51,10 @@ final model.
 
 ---
 
-## Member 4 - [Name]
+## Member 4 - Anavictoria Cavazos
 ### Contribution Area: Feature Selection and Experimentation
 
-[Member 4: Write your contribution here.]
+My personal contribution to Group 4 for module L03 was about the feature selection and experimentation which in short means that I took out the 'extra noise' to see a better accuracy of the data. On my part what I specifically did was select only three of the 13 features to see how the accuracy of the prediction would change about the wine. That is why I had to use flavanoids, color intensity, and proline, which when I inserted those specific features I notice the change of the original accuracy of about 88.9% to 91.7%. Which in tern showed the clear idea that although all 13 features were available, it was best to work with three. Now, this also shows how in future datasets too much information is not always the best when trying to examine or look at specific data. In this case for this part of my contribution the less the better because that is how the accuracy went closer to 100%, something that when it comes to predictions and data we are looking for. 
 
 ---
 
