@@ -40,11 +40,47 @@ The most challenging part for me was making sure that the features and target we
 
 Overall, this lab gave me a clearer understanding of the early stages of a machine learning workflow. I learned that good data preparation is essential because the model depends on properly organized data. I also became more comfortable working with a dataset in Google Colab and understanding how data preparation connects to the model training and evaluation stages completed by the rest of my team.
 
-## Member 3 - [Name]
+## Member 3 - [Kenneth Kouokam]
 
 ### Reflection
 
-[Member 3: Write your individual reflection here.]
+My main takeaway from this lab is that evaluating a model requires more than looking for the highest
+accuracy. My assigned area was Model Training and Evaluation, which connects the earlier work of
+preparing data with the final task of explaining what the predictions mean. In Lab 02, the focus was on
+tables, calculations, and charts. Here, those tools support a larger question: how well can a model use
+measurements to classify examples it has not seen during training?
+
+The Wine project helps me distinguish the learning types. It is supervised learning because the chemical
+measurements come with known wine-class labels. Even though one model is called Logistic Regression,
+its job here is classification. Unsupervised learning would look for groups without those labels, while
+reinforcement learning would involve decisions and feedback from an environment. I see these
+differences as differences in the information available to learn from, rather than simply different algorithm
+names.
+
+The initial model comparison shows why results need context. With the starter's four features and fixed
+split, Logistic Regression correctly classified 32 of 36 test samples, giving 88.9% accuracy. The Decision
+Tree correctly classified 30, giving 83.3%. The difference is only two predictions, so I would not treat it as
+proof that Logistic Regression is always better. Both models need the same test examples for a useful
+comparison, and a small test set limits how confidently I can generalize the result.
+
+The classification report and confusion matrix make the result more meaningful. In the initial Logistic
+Regression output, all 12 class_0 examples were correct, but only 7 of 10 class_2 examples were
+identified correctly. The remaining three were predicted as class_1. This shows how a fairly high overall
+accuracy can hide weaker performance on one class. Precision asks how reliable a predicted class is,
+while recall asks how many actual examples of that class were found. I would choose which errors matter
+most based on the problem being solved.
+
+A useful lesson from checking the training settings is that a displayed result is not automatically a settled
+result. The starter's Logistic Regression reached its 100-iteration limit without converging. A separate
+check allowing more iterations converged and produced 83.3% accuracy. I take this as a reason to pay
+attention to warnings and report settings clearly. Finishing the optimization does not guarantee a higher
+score on every test set, and the initial ranking should not be treated as a final conclusion.
+
+For future work, I would consider feature scaling and compare settings through cross-validation using the
+training data. I would keep a separate final test set for the last evaluation, since repeatedly using it to
+choose models can make performance appear better than it really is. The workflow matters because each
+decision affects the next stage. My goal is to explain both what a model achieved and what the evidence
+is too limited to establish.
 
 ---
 
