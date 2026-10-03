@@ -84,11 +84,17 @@ is too limited to establish.
 
 ---
 
-## Member 4 - [Name]
+## Member 4 - Anavictoria Cavazos
 
 ### Reflection
 
-[Member 4: Write your individual reflection here.]
+After completing L03 I have come to see how machine learning has many components to it with each individual one requiring specific attention in order to work as a whole. One thing that I did notice was the high importance of splitting the data because if that part is not executed properly, the data is not very functionable. For instance, if you do not split the data, it is only going to use memorization, so that 20% is very useful because it can display how accurate the data is and if it is not the best then see where it needs correction. 
+
+In addition, I often like to do my personal interaction or experiment with the data provided aside from my personal contribution. For instance, I tweaked the sizes of the visual datasets to see how certain numbers would affect it, so I was able to see how <12,4> would become <5,2>, which was completely unreadable. However, as a person who is still trying to get a feel of working with machine learning, that has helped me see better the pattern and correlation between the inputs and outputs of the data, which in this case was the numbers to the size.
+
+Now when it came to doing my personal contribution I came across something very basic and common, but at the same time crucial, which is the spelling. I know spelling will always be important, but in the case of writing/typing data it can make your data cell not run successfully. I learned by actually doing it on accident when I typed in my three features, I ran the cell, but the accuracy had not yet reached 91.7%. That is when I discovered as I reviewed the data that an 'a' was missing for the feature 'flavanoids'. This teaches me that for future data, when it is not running successfully that it might just be the simplest mistake which in turn is not such a small one anymore since it can affect the data in a negative manner. 
+
+Overall, I really see how having a hands on experiment with data can help one understand machine learning to know how to properly use and fix it or even at times create it. 
 
 ---
 
