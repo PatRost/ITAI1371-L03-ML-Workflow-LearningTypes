@@ -31,10 +31,23 @@ I made sure that the feature data and target labels were separated correctly bef
 My contribution helped establish the data preparation stage of the machine learning workflow and provided the properly organized training and testing data needed for the next steps of the lab.
 ---
 
-## Member 3 - [Name]
+## Member 3 - [Kenneth Kouokam]
 ### Contribution Area: Model Training and Evaluation
 
-[Member 3: Write your contribution here.]
+My contribution to Group 4 focused on Model Training and Evaluation, covering cells 13 through
+15 of the notebook. I compared Logistic Regression and a Decision Tree using the same four wine
+measurements and the existing split of 142 training samples and 36 test samples. In the initial
+results, Logistic Regression achieved 88.9% accuracy, while the Decision Tree achieved 83.3%. I
+explained what these scores meant and how testing on held-out examples helps assess a model's
+ability to classify new data.
+
+I also examined precision, recall, and F1-score in the classification reports and interpreted the
+confusion matrix to identify which wine classes were confused. This added detail beyond the
+overall accuracy and helped explain the models' mistakes. I included a limitation of the initial
+comparison: Logistic Regression reached its training limit without converging, and a separate
+check allowing more iterations produced 83.3% accuracy. My contribution emphasized comparing
+models fairly, interpreting their results clearly, and checking training settings before choosing a
+final model.
 
 ---
 
