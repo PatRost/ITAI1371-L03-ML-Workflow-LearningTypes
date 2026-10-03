@@ -58,7 +58,11 @@ final model.
 
 ---
 
-## Member 5 - [Name]
+## Member 5 - Hashim Sayed Hoosini
 ### Contribution Area: Machine Learning Types and Real-World Applications
 
-[Member 5: Write your contribution here.]
+My contribution to Group 4 focuses on Parts 7, 8, and 9 of the lab, which cover learning types and real-world applications.
+In Part 7 (Hands-On Practice: Build Your Own Model), I ran the code using different features—such as alcohol, color intensity, and proline—and watched the model accuracy change from 0.889 to 0.833. This highlighted how drastically different features can alter model performance.
+For the Part 8 Assessment (Understanding ML Concepts), we can use supervised learning to predict house prices. For Scenario 2, grouping customers by purchasing behavior without knowing the groups beforehand, we use unsupervised learning. To teach a robot to play chess by having it play many games, we use reinforcement learning. Classifying emails as spam or not spam using labeled data is another example of supervised learning. Finally, finding hidden topics in news articles without predefined categories relies on unsupervised learning.
+Regarding real-world applications, recommendation systems (like Netflix and Amazon) utilize hybrid machine learning recommendation systems. Banks and credit card companies use a mix of supervised learning, unsupervised learning, and deep learning models. Specifically, they use classification for supervised learning and anomaly detection for unsupervised learning.
+
